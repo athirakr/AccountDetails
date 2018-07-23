@@ -64,12 +64,12 @@ public class LoginActivity extends AppCompatActivity {
      */
     private boolean validate() {
         boolean isValid = false;
-      /*  if (edtCredential.getText() != null && edtCredential.getText().length() > 0) {
+       if (edtCredential.getText() != null && edtCredential.getText().length() > 0) {
             String credential = edtCredential.getText().toString().trim();
-            if (credential.equals("0468874507")) {*/
+            if (credential.equals("0468874507")) {
                 isValid = true;
-    /*        }
-        }*/
+           }
+        }
         return isValid;
     }
 
