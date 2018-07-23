@@ -1,0 +1,55 @@
+package com.accountdetails.athirakr.myapplication.dto;
+
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
+/**
+ * Created by athira.kr on 22-07-2018.
+ */
+
+public class Relationships_ {
+    @SerializedName("subscriptions")
+    @Expose
+    private Subscriptions subscriptions;
+    @SerializedName("service")
+    @Expose
+    private Service service;
+    @SerializedName("product")
+    @Expose
+    private Product product;
+    @SerializedName("downgrade")
+    @Expose
+    private Downgrade downgrade;
+
+    public Subscriptions getSubscriptions() {
+        return subscriptions;
+    }
+
+    public void setSubscriptions(Subscriptions subscriptions) {
+        this.subscriptions = subscriptions;
+    }
+
+    public Service getService() {
+        return service;
+    }
+
+    public void setService(Service service) {
+        this.service = service;
+    }
+
+    public Product getProduct() {
+        return product;
+    }
+
+    public void setProduct(Product product) {
+        this.product = product;
+    }
+
+    public Downgrade getDowngrade() {
+        return downgrade;
+    }
+
+    public void setDowngrade(Downgrade downgrade) {
+        this.downgrade = downgrade;
+    }
+}
